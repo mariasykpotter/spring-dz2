@@ -1,3 +1,5 @@
+package configuration;
+
 import beans1.BeanB;
 import beans1.BeanC;
 import beans1.BeanD;

@@ -6,9 +6,6 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 public class BeanE extends GeneralBean {
-    private String name;
-    private Integer value;
-
     public BeanE(String nam, Integer val) {
         super(nam,val);
         System.out.println("BeanE initialization");
@@ -21,31 +18,6 @@ public class BeanE extends GeneralBean {
 
     @PreDestroy
     private void shutdown() {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         System.out.println("Predestroy for BeanE");
     }
 
